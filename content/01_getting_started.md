@@ -1,3 +1,6 @@
+---
+title: "1. Getting Started"
+---
 # 01 — Getting Started: Project & Model List
 
 When you first launch the tool, you'll see a workspace designed to handle multiple devices at once.

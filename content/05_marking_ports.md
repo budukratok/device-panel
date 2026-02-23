@@ -1,3 +1,6 @@
+---
+title: "5. Marking Network Ports"
+---
 # 05 — Stage 4: Marking Network Ports
 
 This is the most critical stage. You need to identify and mark all **Network Ports** on the panel.

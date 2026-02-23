@@ -1,3 +1,6 @@
+---
+title: "2. Loading Your Image"
+---
 # 02 — Stage 1: Loading Your Image
 
 In this stage, you need to provide the best possible photograph of the device's front (or rear) panel.

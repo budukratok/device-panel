@@ -1,3 +1,6 @@
+---
+title: "6. Review & Final Export"
+---
 # 06 — Stage 5: Review & Final Export
 
 After you've completed both the Front and Rear panels for a device, you'll reach the final Review & Export stage.

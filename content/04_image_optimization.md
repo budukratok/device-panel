@@ -1,3 +1,6 @@
+---
+title: "4. Image Optimization"
+---
 # 04 — Stage 3: Image Optimization (Warp & Color)
 
 In this stage, you'll see the result of your corner selection. The panel should now look perfectly rectangular.

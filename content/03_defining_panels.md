@@ -1,3 +1,6 @@
+---
+title: "3. Defining the Panel"
+---
 # 03 — Stage 2: Defining the Panel (Corners)
 
 The tool needs to know exactly where the device panel starts and ends in the photo. This "squares up" the image so it can be used for professional textures.
