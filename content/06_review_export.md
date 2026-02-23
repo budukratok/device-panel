@@ -3,31 +3,46 @@ title: "6. Review & Final Export"
 ---
 # 06 — Stage 5: Review & Final Export
 
-After you've completed both the Front and Rear panels for a device, you'll reach the final Review & Export stage.
+After you've completed both the Front and Rear panels, you'll reach the final **Review & Export** stage.
 
 ## 1. Side-by-Side Verification
-*   Check that both the Front and Rear panels look professional.
-*   Ensure that the port counts (e.g., "Ports: 48") match what you expect for this device.
-*   If you missed something, just go **← Back** to the correct stage and fix it.
+- Check both panels look clean and professional.
+- Ensure port counts match expectations.
+- If something is wrong, click **← Back** and fix it.
 
-## 2. 3D Device Preview (The "Spatial Check")
-This is a powerful way to verify your work.
-*   Click the **[3D Preview 📦]** button.
-*   A window will open showing a 3D box with your textures applied to the front and back.
-*   The green cubes represent the ports you marked.
-*   **Rotation**: Click and drag to rotate the device.
-*   **Zoom**: Use the mouse wheel.
-*   **Goal**: Ensure that the ports look correctly placed in space. For example, if you see a port floating way off to the side of the 3D box, your marking was likely inaccurate.
+## 2. 3D Device Preview (Required)
+
+> [!important]+ Always use 3D Preview before exporting
+> This is the easiest way to detect:
+> - panel **skew**
+> - ports **floating off the device**
+> - incorrect **Rack U size** (smushed/stretched appearance)
+
+- Click **[3D Preview 📦]** to open the 3D model view.
+- Green cubes represent the marked ports.
+- **Rotate**: click + drag  
+- **Zoom**: mouse wheel  
+
+### Rack U size check (smushed/stretched)
+If the Rack U size is wrong (example: device is **2U** but set to **1U**), the model looks compressed.
+
+- Click **[Edit]** in Review stage → change **Rack U** to correct value
+- Re-open **[3D Preview 📦]** and verify again
+
+**✅ Correct (expected Rack U size and proportions)**  
+![[Pasted image 20260223145716.png]]
+
+**❌ Incorrect (wrong Rack U size, device looks smushed or stretched)**  
+![[Pasted image 20260223145822.png]]
 
 ## 3. Exporting Your Work
-You have two ways to finish a model:
-*   **[Export]**: Saves the current model's PNG and JSON files to your project folder.
-*   **[Export & Next ▶]**: Saves the current model and automatically jumps to the first stage of the next incomplete device in your list.
+- **[Export]**: saves PNG + JSON to the project folder
+- **[Export & Next ▶]**: saves and jumps to the next incomplete device
 
 ## 4. Finding Your Files
-Go to your project directory. Inside the **"ProcessedDevices"** folder, you will find:
-*   `<vendor_model>_front.png`
-*   `<vendor_model>_rear.png`
-*   `<vendor_model>.json` (The technical data for Unity)
+Inside **ProcessedDevices**:
+- `<vendor_model>_front.png`
+- `<vendor_model>_rear.png`
+- `<vendor_model>.json`
 
 Congratulations! You've successfully processed the device.

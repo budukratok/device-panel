@@ -3,27 +3,63 @@ title: "5. Marking Network Ports"
 ---
 # 05 — Stage 4: Marking Network Ports
 
-This is the most critical stage. You need to identify and mark all **Network Ports** on the panel.
+This is the most important stage. Here you mark ports on the panel and give them correct names.
 
-## What is a Network Port?
-*   **Mark these**: RJ45 (Ethernet), SFP/SFP+ (Fiber slots), QSFP, etc.
-*   **Do NOT mark**: Console ports, Management ports (MGMT), Power inputs, Serial/DB9, USB, or cooling fans.
+> [!important]+ Main rule
+> Names must be **unique**.  
+> Duplicate names are flagged **in red** and must be fixed.
 
-## 1. Automatic Tools (The Assistants)
-The tool has clever ways to help you, but they are just helpers. **Always double-check their work.**
-*   **Auto Detect All**: Click this to have the computer scan the image for all rectangular port-like shapes. This works best on high-contrast photos.
-*   **Snap Selected**: If you've placed a point manually but it's not perfectly centered, click this button to snap the point to the center of the nearest dark rectangular region.
+## What to mark
 
-## 2. Manual Marking (The Reliable Way)
-If the image is blurry or has unusual port colors, you must mark them manually:
-*   **Add Mode**: Click the **[● Add]** button. Then click in the center of every network port on the image.
-*   **Delete Mode**: Click the **[○ Delete]** button to remove a mis-placed point.
-*   **Move Mode**: Click and drag any dot to reposition it.
+> [!info]+ What counts as a “network / connector port”
+> - **Mark**: RJ45, SFP/SFP+/SFP28, QSFP/QSFP28, HSCI, and other data/uplink connectors.
+> - **Do NOT mark**: USB, power inputs, fans/vents, serial/DB9, or non-connector elements.
 
-## 3. Port Numbering & Sorting
-Once all ports are marked, they need to be numbered correctly (usually starting from 1).
-*   **Spatial Auto Number**: Click this to automatically sort your ports from Top-to-Bottom and Left-to-Right. This is usually the quickest way to get a clean 1, 2, 3... sequence.
-*   **Auto Number (OCR)**: This advanced tool tries to literally "read" the numbers printed on the device panel. Use this for complex numbering schemes.
-*   **Manual Edit**: Select a port in the list on the right and type in its name/number if the auto-numbering gets it wrong.
+> [!note]+ MGMT / Console
+> Marking **MGMT / Management** or **Console** is allowed.  
+> If you mark them, still follow the naming rules below.
 
-When every network port is marked with a green dot and numbered correctly, click **Next →**.
+![[Pasted image 20260223144139.png]]
+
+## 1. Automatic Tools (Assistants)
+- **Auto Detect All**: scans for port-like shapes
+- **Snap Selected**: snaps a point into the nearest connector center
+
+> [!tip]+ Always review auto-detect
+> Auto tools speed things up, but they can miss ports or detect wrong rectangles.
+
+## 2. Manual Marking
+- **[● Add]**: click in the center of each port
+- **[○ Delete]**: remove a wrong point
+- **Move**: drag a point to reposition it
+
+## 3. Naming, Numbering, and Sorting
+
+> [!important]+ Prefer labels printed on the panel
+> If a label is visible, use it exactly as printed:
+> - **HSCI** (not `25`)
+> - **HA1-A**, **HA1-B**, **WAN**, **LAN1**, etc.
+
+![[Pasted image 20260223144404.png]]
+
+> [!tip]+ If labels are not visible
+> Use a consistent logic (example: **Left→Right**, **Top→Bottom**).
+> - **Spatial Auto Number** helps generate a clean sequence quickly.
+> - You can then **Manual Edit** names as needed.
+
+## 4. Debug Offset (Tuning Auto-Detection)
+
+> [!warning]+ Use only when auto-detection is failing broadly
+> Sometimes connectors are detected inconsistently (missing ports, unstable detection).
+> - Enable **Debug** to show the **Offset** control.
+> - Adjust **Offset** to tune detection sensitivity (similar to contrast/threshold) until connectors start being detected reliably.
+
+If only a few ports are wrong, it’s usually faster to fix/place them manually.
+
+When every required port is marked and all names are correct and unique, click **Next →**.
+
+> [!info]+ Rear panel workflow
+> You will repeat the same workflow for the **Rear Panel**:
+> **Load Image → Define Panel → Optimize Image → Mark Ports**
+
+ After the rear panel is completed, click **Next →** to proceed to **[Stage 5: Review & Final Export](06_review_export.md)**.

@@ -3,18 +3,36 @@ title: "2. Loading Your Image"
 ---
 # 02 — Stage 1: Loading Your Image
 
-In this stage, you need to provide the best possible photograph of the device's front (or rear) panel.
+In this stage, you provide the best possible photograph of the device **Front** or **Rear** panel.
+
+> [!tip]+ Recommended: Find a good reference image fast
+> If you don’t have an image yet, click **🔎 Open Search Tabs in Browser**.
+> - The tool opens browser tabs based on **Vendor + Model + panel side** (example: `Palo Alto Networks PA-3220 front panel`).
+> - Prefer **high-resolution** images taken **straight on**.
+
+![[Pasted image 20260223131335.png]]
+
+> [!important]+ Verify Rack U before you continue
+> Use the **Rack U** dropdown (top-right) to set the correct device height.
+> - This affects panel proportions and the final 3D preview.
+> - If you’re not sure, you can still correct it later in **Review & Export**, but it’s best to set it correctly here.
 
 ## How to Load an Image
-You have three convenient ways to get your image into the tool:
 
-1.  **Paste URL**: If you found a high-quality image on a manufacturer's website or search engine, copy the image URL, paste it into the box, and click **Load**.
-2.  **Paste Image (Clipboard)**: Copy an image directly (Right-click "Copy Image" in your browser or take a screenshot), then click the **Paste from Clipboard** button or press **Ctrl+V**.
-3.  **Browse Local File**: If you have the image saved on your computer, click the folder icon to browse and open it.
+> [!info]+ You can load an image in three ways
+> 1. **Paste URL**: paste an image URL and click **Load**
+> 2. **Clipboard**: copy an image and press **Ctrl+V**
+> 3. **Local file**: click **Open Local Image...** and select a file
+
+![[Pasted image 20260223131519.png]]
 
 ## Tips for Better Results
-*   **Perspective**: Try to find photos taken as "straight on" as possible. While the tool can fix some tilt, extreme angles will result in blurry textures.
-*   **Resolution**: Higher resolution is always better. Small, blurry icons make port marking much more difficult.
-*   **Consistency**: Ensure the image you are loading for the "Front" stage is actually the front of the device.
 
-Once the image appears on the screen, click **Next →** to proceed to corner adjustment.
+> [!tip]+ Quality tips (these reduce manual work later)
+> - **Perspective**: “straight on” is best. Extreme angles cause blurry textures.
+> - **Resolution**: higher is always better (tiny labels become readable).
+> - **Consistency**: match the image to the current step:
+>   - **Front stage** → front panel photo  
+>   - **Rear stage** → rear panel photo
+
+Once the image appears, click **Next →** to proceed to **[Stage 2: Defining the Panel (Corners)](03_defining_panels.md)**.

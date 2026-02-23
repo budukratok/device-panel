@@ -3,17 +3,28 @@ title: "4. Image Optimization"
 ---
 # 04 — Stage 3: Image Optimization (Warp & Color)
 
-In this stage, you'll see the result of your corner selection. The panel should now look perfectly rectangular.
+In this stage, you see the result of your corner selection. The panel should now look perfectly rectangular and correctly oriented.
 
 ## 1. Visual Verification
-*   If the panel looks distorted, skewed, or cut off, go **← Back** and re-adjust your corners.
-*   The final output size (in pixels) is shown at the bottom.
+- If the panel looks distorted, skewed, or cut off, click **← Back** and re-adjust corners.
+- The final output size (in pixels) is shown at the bottom.
+
+> [!warning]+ Orientation must be correct here
+> The panel must be:
+> - **Horizontal** (not rotated vertically)
+> - **Not upside down** (text/logos should read normally)
+>
+> If it’s wrong: go **← Back** → use **Rotate ↻** in Stage 2 → return here and re-check.
 
 ## 2. Color & Lighting Correction
-Many photos are too dark, too yellow, or washed out. Use the sliders to make the image look clean and professional:
-*   **Brightness**: Lighten or darken the overall image.
-*   **Contrast**: Make the details pop and help distinguish ports from the background.
-*   **Saturation**: Adjust the intensity of colors (useful if the photo is too orange or pale).
-*   **Auto Levels**: Click this to let the computer automatically try to balance the lighting. It's a great starting point!
+Use sliders to make the image clean and professional:
 
-Once the panel looks clean, bright, and straight, click **Next →**.
+- **Brightness**: overall light/dark
+- **Contrast**: improves separation of ports/details
+- **Saturation**: reduces “too orange / too pale”
+- **Auto Levels**: good starting point
+
+> [!tip]+ Quick workflow
+> Try **Auto Levels** first, then fine-tune Brightness/Contrast.
+
+Once the panel looks clean, bright, straight, and correctly oriented, click **Next →** to proceed to **[Stage 4: Marking Network Ports](05_marking_ports.md)**.
