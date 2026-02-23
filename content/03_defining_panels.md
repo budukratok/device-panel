@@ -27,11 +27,11 @@ The tool will automatically try to detect panel corners after the image is loade
 
 - **Drag the Dots**: move **TL / TR / BR / BL** to the literal panel corners.
 
-**✅ Correct
-  ![[Pasted image 20260223151608.png]]
+**✅ Correct**
+  ![[Pasted image 20260223151608.png|350]]
 
-**❌ Incorrect
-![[Pasted image 20260223151511.png]]
+**❌ Incorrect**
+![[Pasted image 20260223151511.png|350]]
 
 ## 3. Helper Tools
 
